@@ -6,15 +6,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// TODO: Ismael — reemplazá estos placeholders con el firebaseConfig real
-// (Firebase Console > Configuración del proyecto > Tus apps > SDK setup and configuration).
 const firebaseConfig = {
-  apiKey: 'TU_API_KEY_ACA',
+  apiKey: 'AIzaSyDY24TXz13Wj1n7aVdh2HmM88mZo8r7FJ4',
   authDomain: 'roomiecba.firebaseapp.com',
   projectId: 'roomiecba',
-  storageBucket: 'TU_STORAGE_BUCKET_ACA',
-  messagingSenderId: 'TU_SENDER_ID_ACA',
-  appId: 'TU_APP_ID_ACA',
+  storageBucket: 'roomiecba.firebasestorage.app',
+  messagingSenderId: '882781236866',
+  appId: '1:882781236866:web:14307fa270e64b0af88e9b',
 };
 
 const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
